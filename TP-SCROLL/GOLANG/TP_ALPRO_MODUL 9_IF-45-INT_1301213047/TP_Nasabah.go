@@ -38,7 +38,7 @@ func addCustomer(T *tabCustomer, N int) {
 		T[N].bank = a.bank
 		T[N].account = a.account
 	} else {
-		Println("Data is Full")
+		Println("Data is Very Full")
 	}
 }
 
